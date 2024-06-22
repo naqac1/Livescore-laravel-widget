@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Match live score</title>
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 </head>
 <body>
 <div class="match-all">
@@ -15,7 +16,7 @@
 
     <div class="match-content">
         <div class="match-column">
-            <div class="team home">
+            <div class="team">
                 <div class="logo">
                     <img src="https://upload.wikimedia.org/wikipedia/fr/a/a1/Logo_FC_Barcelona.svg" alt="">
                 </div>
@@ -41,7 +42,7 @@
             </div>
         </div>
         <div class="match-column">
-            <div class="team away">
+            <div class="team">
                 <div class="logo">
                     <img src="https://upload.wikimedia.org/wikipedia/fr/a/a1/Logo_FC_Barcelona.svg" alt="">
                 </div>
