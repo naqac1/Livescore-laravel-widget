@@ -8,10 +8,10 @@
 
 :root {
 	--color-text-primary: #1c2a38;
-	--color-text-secondary: #8A8F98;
+	--color-text-secondary: #0e2dd6;
 	--color-text-alert: #d72641;
 	--color-text-icon: #dbdade;
-	--color-bg-primary: #fff;
+	--color-bg-primary: #24cfd7;
 	--color-bg-secondary: #f3f5f9;
 	--color-bg-alert: #fdeaec;
 	--color-theme-primary: #623ce6;
@@ -87,26 +87,11 @@ body {
 	align-items: center;
 	font-weight: 600;
 	img {
-		width: 20px;
+		width: 32px;
 		margin-right: 12px;
 	}
 	
 }
-
-.match-actions {
-	display: flex;
-	margin-left: auto;
-}
-
-.btn-icon {
-	border: none;
-	background-color: transparent;
-	color: var(--color-text-icon);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 
 .match-content {
 	display: flex;
@@ -159,7 +144,7 @@ body {
 }
 
 .match-time, .match-referee {
-	font-size: 14px;
+	font-size: 10px;
 	color: var(--color-text-secondary);
 	strong {
 		color: var (--color-text-primary);
@@ -167,6 +152,12 @@ body {
 }
 
 .match-score {
+	margin-top: 12px;
+	display: flex;
+	align-items: center;
+}
+
+.match-stadium {
 	margin-top: 12px;
 	display: flex;
 	align-items: center;
@@ -191,8 +182,8 @@ body {
 	
 }
 
-.match-time-lapsed {
-	color: #DF9443;
+.match-time-elapsed {
+	color: #c7242d;
 	font-size: 14px;
 	font-weight: 600;
 	margin-top: 8px;
